@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f629a96-696c-41d2-9d8e-a18c0bccbb1b" name="Default Changelist" comment="" />
+    <list default="true" id="8f629a96-696c-41d2-9d8e-a18c0bccbb1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/css/font_lora.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/css/font_open.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/Controller/Client/ArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/client/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/client/post.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/translations/messages.en.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/translations/messages.fr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Controller/Client/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/Client/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/client/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/client/index.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +36,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -146,9 +173,15 @@
       <path value="$PROJECT_DIR$/project/vendor/psr/log" />
       <path value="$PROJECT_DIR$/project/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/project/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/project/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/project/vendor/twig/string-extra" />
+      <path value="$PROJECT_DIR$/project/vendor/twig/intl-extra" />
     </include_path>
   </component>
   <component name="ProjectId" id="21pcRfCW5XzrFWjEDvPeNkJlV5M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -156,6 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -177,11 +211,21 @@
       <updated>1638641462224</updated>
       <workItem from="1638641464134" duration="1579000" />
       <workItem from="1638643195772" duration="80000" />
-      <workItem from="1638643312832" duration="2617000" />
+      <workItem from="1638643312832" duration="14622000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1638662109941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="417" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1638662109941" />
+    <state x="384" y="178" key="NewPhpClassDialog" timestamp="1638662257832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="178" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1638662257832" />
   </component>
 </project>

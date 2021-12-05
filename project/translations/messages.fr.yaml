@@ -1,0 +1,9 @@
+hello: 'Bonjour'
+home: 'Accueil'
+about: 'À propos'
+posts: 'Publications'
+contact: 'Contact'
+login: 'Connexion'
+signup: 'Inscription'
+title:
+  desc: 'La moyenne simple pour résoudre le problem'

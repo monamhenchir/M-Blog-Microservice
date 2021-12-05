@@ -1,0 +1,9 @@
+hello: 'Hello'
+home: 'Home'
+about: 'About'
+posts: 'Posts'
+contact: 'Contact'
+login: 'Login'
+signup: 'Sign-up'
+title:
+  desc: 'The Simple Way To Solve Problem'

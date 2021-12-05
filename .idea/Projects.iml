@@ -7,9 +7,11 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/collections" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/data-fixtures" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/dbal" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/deprecations" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/doctrine-fixtures-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/doctrine-migrations-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/inflector" />
@@ -21,6 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/sql-formatter" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/friendsofphp/proxy-manager-lts" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/laminas/laminas-code" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/myclabs/deep-copy" />
@@ -131,6 +134,8 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/intl-extra" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/string-extra" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/webmozart/assert" />
     </content>
