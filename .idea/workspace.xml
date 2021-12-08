@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f629a96-696c-41d2-9d8e-a18c0bccbb1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/css/font_lora.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/css/font_open.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/Controller/Client/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/client/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/templates/client/post.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/translations/messages.en.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/translations/messages.fr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/config/packages/fos_elastica.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Controller/Client/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/Client/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Controller/Client/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/Client/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Repository/ArticleRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/templates/client/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/client/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/templates/client/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/client/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +170,15 @@
       <path value="$PROJECT_DIR$/project/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/project/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/project/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/project/vendor/symfonycasts/verify-email-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/ezimuel/ringphp" />
+      <path value="$PROJECT_DIR$/project/vendor/ezimuel/guzzlestreams" />
+      <path value="$PROJECT_DIR$/project/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/project/vendor/nyholm/dsn" />
+      <path value="$PROJECT_DIR$/project/vendor/friendsofsymfony/elastica-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/project/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/project/vendor/ruflin/elastica" />
     </include_path>
   </component>
   <component name="ProjectId" id="21pcRfCW5XzrFWjEDvPeNkJlV5M" />
@@ -212,6 +213,8 @@
       <workItem from="1638641464134" duration="1579000" />
       <workItem from="1638643195772" duration="80000" />
       <workItem from="1638643312832" duration="14622000" />
+      <workItem from="1638879392363" duration="1615000" />
+      <workItem from="1638911906965" duration="14323000" />
     </task>
     <servers />
   </component>
@@ -227,5 +230,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="178" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1638662257832" />
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1638926788015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1638926788015" />
   </component>
 </project>

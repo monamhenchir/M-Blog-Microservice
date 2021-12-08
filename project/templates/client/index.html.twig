@@ -12,8 +12,8 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.ico') }}"/>
     {% block stylsheets %}
         <!-- Google fonts-->
-        <link href="{{ asset('font_lora.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('font_open.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('css/font_lora.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ asset('css/font_open.css') }}" rel="stylesheet" type="text/css"/>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet"/>
     {% endblock stylsheets %}
@@ -39,14 +39,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ path('index') }}">{{ 'home'|trans }}</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ path('index',{'createAt':'DESC'}) }}">{{ 'home'|trans }}</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ path('about') }}">{{ 'about'|trans }}</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">{{ 'posts'|trans }}</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="">{{ 'contact'|trans }}</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 text-warning"
-                                            href="">{{ 'login'|trans }}</a></li>
+                                            href="{{ path('app_login') }}">{{ 'login'|trans }}</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4 text-warning"
-                                            href="">{{ 'signup'|trans }}</a></li>
+                                            href="{{ path('app_register') }}">{{ 'signup'|trans }}</a></li>
                 </ul>
             </div>
         </div>
@@ -54,37 +53,53 @@
 {% endblock navbar %}
 <!-- Page Header-->
 {% block header %}
-<header class="masthead" style="background-image: url({{ asset('assets/img/home-bg.jpg') }})">
-    <div class="container position-relative px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <div class="site-heading">
-                    <h1>M-Blog</h1>
-                    <span class="subheading">{{ 'title.desc'|trans }}</span>
+    <header class="masthead" style="background-image: url({{ asset('assets/img/home-bg.jpg') }})">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading">
+                        <h1>M-Blog</h1>
+                        <span class="subheading">{{ 'title.desc'|trans }}</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 {% endblock %}
 {% block main %}
     <!-- Main Content-->
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
+
+            <div class="d-flex">
+                <form class="col-10 d-flex" action="{{ path('search') }}" method="get">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    <input class="form-control me-2" type="search" name="q" id="q" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="dropdown col-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filtre
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="{{ path('index',{'createAt':'DESC'}) }}">Sort By Time DESC</a></li>
+                        <li><a class="dropdown-item" href="{{ path('index',{'createAt':'ASC'}) }}">Sort By Time ASC </a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <!-- Post preview-->
                 {% for post in posts %}
-                <div class="post-preview">
-                    <a href="{{path('post',{'id':post.id})}}">
-                        <h2 class="post-title">{{post.title}}</h2>
-                        <h3 class="post-subtitle">{{post.content|u.truncate(30,'...')}}</h3>
-                    </a>
-                    <p class="post-meta">
-                        Posted by
-                        <a href="#!">User</a>
-                        {{post.createAt|format_datetime( locale= app.request.locale)}}
-                    </p>
-                </div>
+                    <div class="post-preview">
+                        <a href="{{path('post',{'id':post.id})}}">
+                            <h2 class="post-title">{{post.title}}</h2>
+                            <h3 class="post-subtitle">{{post.content|u.truncate(80,'...')}}</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">User</a>
+                            {{post.createAt|format_datetime( locale= app.request.locale)}}
+                        </p>
+                    </div>
                     <hr class="my-4"/>
                 {% endfor %}
                 <!-- Divider-->

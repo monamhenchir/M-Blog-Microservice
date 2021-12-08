@@ -138,6 +138,15 @@
       <path value="$PROJECT_DIR$/project/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/project/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/project/vendor/twig/intl-extra" />
+      <path value="$PROJECT_DIR$/project/vendor/symfonycasts/verify-email-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/ezimuel/ringphp" />
+      <path value="$PROJECT_DIR$/project/vendor/ezimuel/guzzlestreams" />
+      <path value="$PROJECT_DIR$/project/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/project/vendor/nyholm/dsn" />
+      <path value="$PROJECT_DIR$/project/vendor/friendsofsymfony/elastica-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/project/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/project/vendor/ruflin/elastica" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

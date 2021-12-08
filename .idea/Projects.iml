@@ -22,12 +22,18 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/doctrine/sql-formatter" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/elasticsearch/elasticsearch" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/ezimuel/guzzlestreams" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/ezimuel/ringphp" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/friendsofphp/proxy-manager-lts" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/friendsofsymfony/elastica-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/fzaninotto/faker" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/laminas/laminas-code" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/nyholm/dsn" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/pagerfanta/pagerfanta" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/phar-io/version" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/phpdocumentor/reflection-common" />
@@ -46,6 +52,8 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/psr/link" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/ruflin/elastica" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/sebastian/cli-parser" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/sebastian/code-unit" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/sebastian/code-unit-reverse-lookup" />
@@ -132,6 +140,7 @@
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/web-link" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/web-profiler-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/project/vendor/symfonycasts/verify-email-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/extra-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/project/vendor/twig/intl-extra" />
